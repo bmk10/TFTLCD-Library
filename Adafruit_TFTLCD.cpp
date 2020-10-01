@@ -113,6 +113,8 @@ void Adafruit_TFTLCD::init(void) {
   rotation = 0;
   cursor_y = cursor_x = 0;
   textcolor = 0xFFFF;
+  textsize_x = textsize; // bmk10 9/30/2020 w \e trash more variables for later anyway.
+  textsize_y = textsize; // bmk10 9/30/2020
   _width = TFTWIDTH;
   _height = TFTHEIGHT;
 }
